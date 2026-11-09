@@ -8,6 +8,7 @@
 \usepackage{amsthm}
 \usepackage{amsmath}
 \usepackage{booktabs}
+\newcommand{\m}{\mathcal{M}_2}
 
 \theoremstyle{definition}
 \newtheorem{definicija}{Definicija}
@@ -177,14 +178,14 @@ in zato kvadrat ni normalen.
 
 \begin{izrek}
    % Začetek okolja izrek
-      Magična konstanta normalnega magičnega kvadrata reda n
+      Magična konstanta normalnega magičnega kvadrata reda \(n\)
       je enaka
       \begin{equation}
          \label{eq:mc}
          % oznaka: eq:mc
          % Okolje `equation` je že prikazni matematični način,
          % zato tu izraz vpišite brez `\[` in `\]`.
-         \frac{n(n^2+1)}{2}
+         \m(n)=\frac{n(n^2+1)}{2}
       \end{equation}
    % Konec okolja izrek
 \end{izrek}
@@ -196,12 +197,12 @@ in zato kvadrat ni normalen.
       števil (glej \eqref{eq:numbers} na strani \pageref{eq:numbers}) enaka
       !!. Ker imamo
       v kvadratu \(n\) vrstic z enako vsoto, je vsota števil v eni vrstici
-      enaka številu \(M_2(n)\). % sklica: eq:numbers, eq:numbers
+      enaka številu \(\m(n)\). % sklica: eq:numbers, eq:numbers
    \end{proof}
  % Konec dokaza
 
 Preprost račun pokaže, da je konstanti \eqref{eq:mc} analogna konstanta
-\(M_2(n;A,D)\) za magični kvadrat, v katerem so nameščena števila
+\(\m(n;A,D)\) za magični kvadrat, v katerem so nameščena števila
 \(A\), \(A+D\), \(A+2D\), \ldots, \(A+(n^2-1)D\), enaka % sklic: eq:mc
 !!
 
