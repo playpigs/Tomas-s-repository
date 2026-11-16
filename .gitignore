@@ -4,3 +4,6 @@
 *.gz
 *.pdf
 *.fdb_latexmk
+*.bbl
+*.blg
+*.bib
