@@ -1,8 +1,10 @@
- *.aux
- *.log
- *.fls
- *.gz
- *.pdf
- *.fdb_latexmk
- *.bbl
- *.blg
+*.aux
+*.log
+*.fls
+*.gz
+*.pdf
+*.fdb_latexmk
+*.bbl
+*.blg
+!slika.pdf
+*.toc
