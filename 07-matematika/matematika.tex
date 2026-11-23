@@ -44,16 +44,27 @@ Nariši grafe funkcij:
 % Oblikujte spodnjo enačbo z okoljem multline*,
 % da bo oblikovana kot v rešitvi.
 Poišči vse rešitve enačbe
-\[
-(1+x+x^2) \cdot (1+x+x^2+x^3+\ldots+x^9+x^{10}) =
-=(1+x+x^2+x^3+x^4+x^5+x^6)^2.
-\]
+
+
+\begin{multline*}
+   (1+x+x^2) \cdot (1+x+x^2+x^3+\ldots +x^9+x^{10}) =\\
+   =(1+x+x^2+x^3+x^4+x^5+x^6)^2.
+\end{multline*}
 
 \section*{Okolje \texttt{cases}}
 % Oblikujte spodnji funkcijski predpis z okoljem cases,
 % da bo oblikovan kot v rešitvi.
 Dana je funkcija
-   % \frac{3x^2y-y^3}{x^2+y^2}
+
+\begin{equation*}
+f(x,y) = 
+\begin{cases}
+\frac{3x^2y-y^3}{x^2+y^2}, & \text{če } (x,y) \neq (0,0),\\
+a; &(x,y) =(0,0)
+\end{cases}
+\end{equation*}
+   
+%\frac{3x^2y-y^3}{x^2+y^2}
 \begin{itemize}
 \item Določi \(a\), tako da izračunaš limito \( \lim_{(x,y)\to(0,0)} f(x,y) \).
 \item Izračunaj parcialna odvoda \(f_x(x,y)\) in \(f_y(x,y)\).
